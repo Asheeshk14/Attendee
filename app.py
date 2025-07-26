@@ -13,7 +13,7 @@ COLLEGE_LOGIN_URL = "http://43.250.40.63/Login.aspx?ReturnUrl=%2fStudentLogin%2f
 COLLEGE_DASHBOARD_URL = "http://43.250.40.63/StudentLogin/MainStud.aspx"
 
 def is_college_portal_available():
-    """Check if the college portal is accessible"""
+    """Check if the college portal is accessible I dnt know"""
     try:
         response = requests.get(COLLEGE_LOGIN_URL, timeout=10)
         return response.status_code == 200
